@@ -20,6 +20,16 @@ img {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 /*todo INDEX-PORTFOLIO HEADER */
 
 .header {
@@ -320,9 +330,9 @@ img {
 .customers-header {
   font-size: 36px;
   line-height: 1.1;
-  margin-bottom: 72px;
   text-align: center;
   color: var(--dark-color);
+  margin-bottom: 72px;
 }
 
 .customers-list {
